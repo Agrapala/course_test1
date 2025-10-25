@@ -1,0 +1,6 @@
+Flask==2.2.5
+SQLAlchemy==1.4.46
+psycopg2-binary==2.9.9   # if Postgres; for MySQL use mysqlclient or PyMySQL
+Flask-Migrate==4.0.4
+gunicorn==20.1.0
+python-dotenv==1.0.0
