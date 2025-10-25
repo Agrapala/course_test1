@@ -5,7 +5,8 @@ import os
 app = Flask(__name__)
 
 # BACKEND API URL
-BACKEND_URL = os.environ.get("http://localhost:5000")   # change later when deploying to EKS
+BACKEND_URL = "http://host.docker.internal:5000"
+   # change later when deploying to EKS
 
 @app.get("/")
 def index():
